@@ -1,0 +1,16 @@
+page-pagar {
+    .back{
+        color:#0066ff;
+        .text-input::-moz-placeholder {
+            color: #0066ff;
+            }
+
+        .text-input:-ms-input-placeholder {
+            color: #0066ff;
+        }
+
+        .text-input::-webkit-input-placeholder {
+            color: #0066ff;
+        }
+    }
+}

@@ -1,0 +1,22 @@
+page-modal-page {
+        .back{
+        color:#0066ff;
+        .text-input::-moz-placeholder {
+            color: #0066ff;
+            }
+
+        .text-input:-ms-input-placeholder {
+            color: #0066ff;
+        }
+
+        .text-input::-webkit-input-placeholder {
+            color: #0066ff;
+        }
+    }
+
+    .center {
+    margin: auto;
+    width: 50%;
+    padding: 10px;
+}
+}
