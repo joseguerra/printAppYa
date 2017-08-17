@@ -18,15 +18,4 @@ export class Venta {
   ) {
   }
 
-  getLoteries(){    
-    var response = this.http.get(this.url).map(res => res.json());    
-    return response;
-  }
-
-  getLotery(id: string){        
-    var response = this.http.get(this.url+id).map(res => res.json());    
-    return response;
-  }
-
-
 }
